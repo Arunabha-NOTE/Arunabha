@@ -11,11 +11,11 @@
 }
 
 ::selection {
-  background: grey;
+  background: #5da1f5;
   color: #f8f8f2;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: mediumspringgreen;
+  background-color: #5da1f5;
 }
