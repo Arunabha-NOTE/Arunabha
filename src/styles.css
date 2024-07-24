@@ -6,7 +6,7 @@ body {
   padding-left: 6px;
   padding-right: 6px;
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
