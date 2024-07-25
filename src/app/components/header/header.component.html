@@ -18,20 +18,20 @@
       <ul
         tabindex="0"
         class="menu rounded-box menu-sm dropdown-content bg-neutral z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Skills</a></li>
-        <li><a>Projects</a></li>
-        <li><a>Extracurricular</a></li>
-        <li><a>Social</a></li>
+        <li><button (click)="ScrollIntoView('#skills')"><a>Skills</a></button></li>
+        <li><button (click)="ScrollIntoView('#projects')"><a>Projects</a></button></li>
+        <li><button (click)="ScrollIntoView('#extracurriculars')"><a>Extracurriculars</a></button></li>
+        <li><button (click)="ScrollIntoView('#social')"><a>Social</a></button></li>
       </ul>
     </div>
-    <a class="btn hidden md:flex  btn-ghost rounded-box text-xl" href="/"><img src="/angular_gradient.png" class="w-10 h-10 aspect-square" alt="angularlogoforarunabha"></a>
+    <button class="btn hidden md:flex  btn-ghost rounded-box text-xl" (click)="ScrollIntoView('#home')"><img src="/angular_gradient.png" class="w-10 h-10 aspect-square" alt="angularlogoforarunabha"></button>
   </div>
   <div class="navbar-center rounded-box hidden lg:flex">
     <ul class="menu rounded-full menu-horizontal px-1">
-      <li><a href="">Skills</a></li>
-      <li><a href="">Projects</a></li>
-      <li><a>Extracurricular</a></li>
-      <li><a href="">Social</a></li>
+      <li><button (click)="ScrollIntoView('#skills')"><a>Skills</a></button></li>
+      <li><button (click)="ScrollIntoView('#projects')"><a>Projects</a></button></li>
+      <li><button (click)="ScrollIntoView('#extracurriculars')"><a>Extracurriculars</a></button></li>
+      <li><button (click)="ScrollIntoView('#social')"><a>Social</a></button></li>
     </ul>
   </div>
   <div class="navbar-end ">
