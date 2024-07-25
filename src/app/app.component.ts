@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {FooterComponent} from "./components/footer/footer.component";
 import {HeaderComponent} from "./components/header/header.component";
@@ -12,5 +12,5 @@ import {ProgressBarComponent} from "./components/progress-bar/progress-bar.compo
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Portfolio1';
+  title = 'Arunabha Mukhopadhyay';
 }
