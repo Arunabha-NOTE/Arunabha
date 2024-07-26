@@ -1,24 +1,38 @@
-<div class="navbar sticky top-4 max-w-7xl z-10 bg-opacity-40 backdrop-filter backdrop-blur-md mt-4 rounded-box  bg-neutral mx-auto  ">
-  <div class="navbar-start">
-    <div class="dropdown rounded-full">
-      <div tabindex="0" role="button" class="btn rounded-box btn-ghost lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
+<div class="sticky top-4  z-10 px-[6px] md:p-0">
+  <div class="navbar max-w-7xl bg-opacity-40 backdrop-filter backdrop-blur-md mt-4 rounded-box bg-neutral md:mx-auto  ">
+    <div class="navbar-start">
+      <div class="dropdown rounded-full">
+        <div tabindex="0" role="button" class="btn rounded-box btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul
+          tabindex="0"
+          class="menu rounded-box menu-sm dropdown-content bg-neutral z-[1] mt-3 w-52 p-2 shadow">
+          <li><button (click)="ScrollIntoView('#home')"><a>Home</a></button></li>
+          <li><button (click)="ScrollIntoView('#skills')"><a>Skills</a></button></li>
+          <li><button (click)="ScrollIntoView('#experience')"><a>Experience</a></button></li>
+          <li><button (click)="ScrollIntoView('#projects')"><a>Projects</a></button></li>
+          <li><button (click)="ScrollIntoView('#extracurriculars')"><a>Extracurriculars</a></button></li>
+          <li><button (click)="ScrollIntoView('#social')"><a>Social</a></button></li>
+        </ul>
       </div>
-      <ul
-        tabindex="0"
-        class="menu rounded-box menu-sm dropdown-content bg-neutral z-[1] mt-3 w-52 p-2 shadow">
-        <li><button (click)="ScrollIntoView('#home')"><a>Home</a></button></li>
+      <button class="btn hidden lg:flex  btn-ghost rounded-box text-xl" (click)="ScrollIntoView('#home')"><img
+        ngSrc="/angular.png" class="aspect-square" alt="angularlogoforarunabha" height="48"
+        width="48" priority></button>
+    </div>
+    <div class="navbar-center rounded-box hidden lg:flex">
+      <ul class="menu rounded-full menu-horizontal px-1">
         <li><button (click)="ScrollIntoView('#skills')"><a>Skills</a></button></li>
         <li><button (click)="ScrollIntoView('#experience')"><a>Experience</a></button></li>
         <li><button (click)="ScrollIntoView('#projects')"><a>Projects</a></button></li>
@@ -26,20 +40,8 @@
         <li><button (click)="ScrollIntoView('#social')"><a>Social</a></button></li>
       </ul>
     </div>
-    <button class="btn hidden lg:flex  btn-ghost rounded-box text-xl" (click)="ScrollIntoView('#home')"><img
-      ngSrc="/angular.png" class="aspect-square" alt="angularlogoforarunabha" height="48"
-      width="48" priority></button>
-  </div>
-  <div class="navbar-center rounded-box hidden lg:flex">
-    <ul class="menu rounded-full menu-horizontal px-1">
-      <li><button (click)="ScrollIntoView('#skills')"><a>Skills</a></button></li>
-      <li><button (click)="ScrollIntoView('#experience')"><a>Experience</a></button></li>
-      <li><button (click)="ScrollIntoView('#projects')"><a>Projects</a></button></li>
-      <li><button (click)="ScrollIntoView('#extracurriculars')"><a>Extracurriculars</a></button></li>
-      <li><button (click)="ScrollIntoView('#social')"><a>Social</a></button></li>
-    </ul>
-  </div>
-  <div class="navbar-end ">
-    <a href="https://media.licdn.com/dms/document/media/D4D2DAQENjeX7Z-gnJw/profile-treasury-document-pdf-analyzed/0/1721729926938?e=1722470400&v=beta&t=N7ZPpnRO0RkpghZahsnB6ccb6mJ5GBP5dghhpeQtYHM" target="_blank" class="btn bg-secondary  rounded-box">Resume/CV</a>
+    <div class="navbar-end ">
+      <a href="https://media.licdn.com/dms/document/media/D4D2DAQENjeX7Z-gnJw/profile-treasury-document-pdf-analyzed/0/1721729926938?e=1722470400&v=beta&t=N7ZPpnRO0RkpghZahsnB6ccb6mJ5GBP5dghhpeQtYHM" target="_blank" class="btn bg-secondary  rounded-box">Resume/CV</a>
+    </div>
   </div>
 </div>
