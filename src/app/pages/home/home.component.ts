@@ -3,6 +3,7 @@ import {HeroComponent} from "../../components/hero/hero.component";
 import {SkillsComponent} from "../../components/skills/skills.component";
 import {ProjectsComponent} from "../../components/projects/projects.component";
 import {ExtracurricularsComponent} from "../../components/extracurriculars/extracurriculars.component";
+import {ExperienceComponent} from "../../components/experience/experience.component";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import {ExtracurricularsComponent} from "../../components/extracurriculars/extra
     HeroComponent,
     SkillsComponent,
     ProjectsComponent,
-    ExtracurricularsComponent
+    ExtracurricularsComponent,
+    ExperienceComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

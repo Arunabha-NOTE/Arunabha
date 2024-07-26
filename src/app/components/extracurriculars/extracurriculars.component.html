@@ -2,7 +2,7 @@
 <div class="mx-auto  max-w-7xl grid md:grid-cols-3 grid-cols-1 gap-6 px-4 py-6">
   <div class="card hover:shadow-lg hover:shadow-[#ff00cc] bg-base-100  border-secondary border-2 hover:-translate-y-4 duration-200" *ngFor="let extra of extras">
     <div class="card-body bg-opacity-40 backdrop-filter  bg-neutral rounded-2xl">
-      <h2 class="card-title">{{ extra.name }}</h2>
+      <h2 class="card-title text-2xl">{{ extra.name }}</h2>
       <p>{{ extra.description }}</p>
       <div class="card-actions justify-end">
         <button class="btn btn-secondary"><a [href]="extra.link" target="_blank">{{ extra.platform }}</a></button>
