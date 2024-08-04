@@ -28,13 +28,13 @@ const projectData: ProjectModel[] = [
     platform: "Github"
   }, {
     id: 5,
-    name: "IEEE CS MUJ",
+    name: "IEEE CS MUJ Website",
     description: "This is the official website for IEEE CS MUJ. A student branch of IEEE Computer Society at Manipal University Jaipur.",
     link: "https://github.com/IEEECSMUJ/IEEECSMUJ",
     platform: "Github"
   }, {
     id: 6,
-    name: "IC Hack 2.0",
+    name: "IC Hack 2.0 Website",
     description: "This is the official website for IC Hack 2.0. A annual hackathon conducted by the IEEE India Council.",
     link: "https://github.com/pujan-modha/ichack23",
     platform: "Github"
