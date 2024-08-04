@@ -17,25 +17,25 @@ const projectData: ProjectModel[] = [
   }, {
     id: 3,
     name: "Startup Weekend Jaipur 2024",
-    description: "This is the official website for startup weekend jaipur 2024. It is a 3 day event where you can pitch your ideas, form teams and build a startup in 54 hours.",
+    description: "This is the official website for startup weekend jaipur 2024. It is built using multiple technologies such as React, Vite, Tailwind, Mongodb, Express, etc.",
     link: "https://github.com/pujan-modha/swj-24",
     platform: "Github"
   }, {
     id: 4,
     name: "To-Do Application",
-    description: "This is a web application where you can add lists and custom to-dos for efficient work management. It is built using multiple technologies such as Spring Boot, JSP, and React.",
+    description: "This is a web application where you can add lists and custom to-dos for efficient work manIt is built using multiple technologies such as Spring Boot, JSP, and React.agement. ",
     link: "https://github.com/Arunabha-NOTE/ToDo-App",
     platform: "Github"
   }, {
     id: 5,
     name: "IEEE CS MUJ Website",
-    description: "This is the official website for IEEE CS MUJ. A student branch of IEEE Computer Society at Manipal University Jaipur.",
+    description: "This is the official website for IEEE CS MUJ. A student branch of IEEE Computer Society at Manipal University Jaipur. It is built using technologies such as NextJs and Tailwind CSS.",
     link: "https://github.com/IEEECSMUJ/IEEECSMUJ",
     platform: "Github"
   }, {
     id: 6,
     name: "IC Hack 2.0 Website",
-    description: "This is the official website for IC Hack 2.0. A annual hackathon conducted by the IEEE India Council.",
+    description: "This is the official website for IC Hack 2.0. A annual hackathon conducted by the IEEE India Council. It is built using technologies such as React and Tailwind CSS.",
     link: "https://github.com/pujan-modha/ichack23",
     platform: "Github"
   }
