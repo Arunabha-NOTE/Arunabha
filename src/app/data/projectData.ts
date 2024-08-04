@@ -4,7 +4,7 @@ const projectData: ProjectModel[] = [
   {
     id: 1,
     name: "Devsphere",
-    description: "A SaaS for easy provisioning and deployment of workspaces through our cli or ui in various providers like AWS, GCP, Azure, etc. It is built using multiple technologies such as Spring Boot, react, Terraform, CircleCI, docker, etc.",
+    description: "A SaaS for easy provisioning and deployment of workspaces through our cli or ui in various providers like AWS, GCP, Azure, etc. It is built using multiple technologies such as Spring Boot, React, Terraform, CircleCI, Docker, etc.",
     link: "https://gitlab.com/devsphere1",
     platform: "Gitlab"
   },
