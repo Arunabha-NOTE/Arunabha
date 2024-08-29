@@ -38,6 +38,12 @@ const projectData: ProjectModel[] = [
     description: "This is the official website for IC Hack 2.0. A annual hackathon conducted by the IEEE India Council. It is built using technologies such as React and Tailwind CSS.",
     link: "https://github.com/pujan-modha/ichack23",
     platform: "Github"
+  },{
+    id: 7,
+    name: "DoIC MUJ Website ",
+    description: "This is the official website for DoIC MUJ, It is built using technologies such as React, prismic and Tailwind CSS.",
+    link: "https://github.com/doicmanipal/website",
+    platform: "Github"
   }
 ]
 
