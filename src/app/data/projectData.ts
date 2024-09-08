@@ -44,6 +44,13 @@ const projectData: ProjectModel[] = [
     description: "This is the official website for DoIC MUJ, It is built using technologies such as React, prismic and Tailwind CSS.",
     link: "https://github.com/doicmanipal/website",
     platform: "Github"
+  },{
+    id: 8,
+    name: "CrowdSync ",
+    description: "This project is designed to empower users to report real-time conditions during disasters, such as flood levels, road\n" +
+      "blockages, and other damages. Tech Stack - React, Tailwind CSS, AppWrite, MariaDb, CircleCI, Docker, etc.",
+    link: "https://gitlab.com/mangodb2/crowdsync",
+    platform: "GitLab"
   }
 ]
 
