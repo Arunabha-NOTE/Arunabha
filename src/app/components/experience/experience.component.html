@@ -5,7 +5,7 @@
       <h2 class="card-title text-2xl">{{ experience.name }}</h2>
       <p>{{ experience.description }}</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-secondary"><a [href]="experience.link" target="_blank">{{ experience.platform }}</a></button>
+        <a [href]="experience.link" target="_blank"><button class="btn btn-secondary">{{ experience.platform }}</button></a>
       </div>
     </div>
   </div>

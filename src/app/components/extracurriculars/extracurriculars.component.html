@@ -5,7 +5,7 @@
       <h2 class="card-title text-2xl">{{ extra.name }}</h2>
       <p>{{ extra.description }}</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-secondary"><a [href]="extra.link" target="_blank">{{ extra.platform }}</a></button>
+        <a [href]="extra.link" target="_blank"><button class="btn btn-secondary">{{ extra.platform }}</button></a>
       </div>
     </div>
   </div>

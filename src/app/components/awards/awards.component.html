@@ -6,7 +6,7 @@
       <p>{{ award.description }}</p>
       <p>{{ award.description2 }}</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-secondary"><a [href]="award.link" target="_blank">{{ award.platform }}</a></button>
+        <a [href]="award.link" target="_blank"><button class="btn btn-secondary">{{ award.platform }}</button></a>
       </div>
     </div>
   </div>

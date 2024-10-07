@@ -5,7 +5,7 @@
       <h2 class="card-title text-2xl">{{ project.name }}</h2>
       <p>{{ project.description }}</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-secondary"><a [href]="project.link" target="_blank">{{ project.platform }}</a></button>
+        <a [href]="project.link" target="_blank"><button class="btn btn-secondary">{{ project.platform }}</button></a>
       </div>
     </div>
   </div>
