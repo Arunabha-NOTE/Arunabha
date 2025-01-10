@@ -23,7 +23,7 @@ const projectData: ProjectModel[] = [
   }, {
     id: 4,
     name: "To-Do Application",
-    description: "This is a web application where you can add lists and custom to-dos for efficient work manIt is built using multiple technologies such as Spring Boot, JSP, and React.agement. ",
+    description: "This is a web application where you can add lists and custom to-dos for efficient work manIt is built using multiple technologies such as Spring Boot, JSP, and React. ",
     link: "https://github.com/Arunabha-NOTE/ToDo-App",
     platform: "Github"
   }, {
