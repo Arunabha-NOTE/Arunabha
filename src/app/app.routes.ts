@@ -8,9 +8,4 @@ export const routes: Routes = [
     title: 'Home',
     component: HomeComponent,
   },
-  {
-    path: 'testlink',
-    title: 'test link',
-    component: TestlinkComponent,
-  },
 ];
