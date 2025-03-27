@@ -51,7 +51,38 @@ const projectData: ProjectModel[] = [
       "blockages, and other damages. Tech Stack - React, Tailwind CSS, AppWrite, MariaDb, CircleCI, Docker, etc.",
     link: "https://gitlab.com/mangodb2/crowdsync",
     platform: "GitLab"
-  }
+  },{
+    id: 9,
+    name: "TedxMUJ Website",
+    description: "This is the official website for TedxMUJ. It is built using technologies such as Nextjs and Tailwind CSS.",
+    link: "https://github.com/anvit-dd/tedx-muj",
+    platform: "Github"
+    },{
+        id: 10,
+        name: "Oneiros Muj 2024 website",
+        description: "This is the official website for Oneiros MUJ. It is built using technologies such as React, prismic and Tailwind CSS.",
+        link: "https://ono-25-main.vercel.app/",
+        platform: "website"
+    },{
+        id: 11,
+        name: "Checklist",
+        description: "A website to create and make use of Checklists for Flight simulation purposes. It is built using Angular, Tailwind and Supabase.",
+        link: "https://github.com/Arunabha-NOTE/checklist",
+        platform: "Github"
+    }
+    ,{
+        id: 11,
+        name: "Deepfake Detector",
+        description: "A website to submit a video to check if it is manipulated or not. It is making use of React and FastApi. The model used for classification is a Vision Transformer",
+        link: "https://github.com/Arunabha-NOTE/deepfake-frontend",
+        platform: "GitHub"
+    }, {
+    id: 12,
+    name: "Diabetic Retinopathy Classification",
+    description: "A model to classify Diabetic Retinopathy using a Vision Transformer.",
+    link: "",
+    platform: "Paper"
+    }
 ]
 
 export default projectData;
