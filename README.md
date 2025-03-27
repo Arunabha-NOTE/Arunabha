@@ -1,5 +1,7 @@
-# Portfolio1
-
+# Arunabha's Portfolio
+Hi, This is the code for my portfolio website. It is making use of Angular, Tailwind and Daisy UI.  
+  
+  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
 
 ## Development server
