@@ -8,4 +8,9 @@ export const routes: Routes = [
     title: 'Home',
     component: HomeComponent,
   },
+  {
+    path: 'skillsforcv',
+    title: 'Skills for CV',
+    component: TestlinkComponent
+  }
 ];
