@@ -82,6 +82,12 @@ const projectData: ProjectModel[] = [
     description: "A model to classify Diabetic Retinopathy using a Vision Transformer.",
     link: "",
     platform: "Paper"
+    }, {
+        id: 13,
+        name: "Muj ERP",
+        description: "Multiple portals for ERP for MUJ. We are making use of Tools and Technologies NextJs, Tailwind CSS, Supabase, Prisma, Express, AWS, Docker.",
+        link: "",
+        platform: "Paper"
     }
 ]
 
