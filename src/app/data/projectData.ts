@@ -87,7 +87,7 @@ const projectData: ProjectModel[] = [
         name: "Muj ERP",
         description: "Multiple portals for ERP for MUJ. We are making use of Tools and Technologies NextJs, Tailwind CSS, Supabase, Prisma, Express, AWS, Docker.",
         link: "",
-        platform: "Paper"
+        platform: "NA"
     }
 ]
 
