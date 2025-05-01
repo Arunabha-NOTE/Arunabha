@@ -13,5 +13,5 @@ import projectData from "../../data/projectData";
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-  projects:  ProjectModel[] = projectData;
+  projects:  ProjectModel[] = projectData.slice().reverse();
 }
