@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, html {
-    background: #000000;
+    /*background: #000000;*/
     scroll-behavior: smooth;
 }
 
