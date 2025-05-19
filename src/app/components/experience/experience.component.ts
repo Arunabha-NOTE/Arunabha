@@ -13,5 +13,5 @@ import experienceData from "../../data/experienceData";
   styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
-  experiences:  ExperienceModel[] = experienceData;
+  experiences:  ExperienceModel[] = experienceData.reverse();
 }
