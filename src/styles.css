@@ -1,9 +1,12 @@
+@import 'roboto-fontface/css/roboto/roboto-fontface.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 body, html {
     /*background: #000000;*/
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 

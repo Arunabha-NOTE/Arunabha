@@ -15,13 +15,13 @@ const ExtraData: ExtraModel[] = [{
 },{
   id: 3,
   name: "Startup Weekend Jaipur (June 2024 – October 2024)",
-  description: "Co-lead Technical Team(EC Panel)",
+  description: "Co-lead Technical Team (EC Panel)",
   link: "https://www.startupweekendjaipur.in/",
   platform: "Website"
 }, {
   id: 4,
   name: "IEEE CS MUJ (March 2023 – April 2024)",
-  description: "Senior Coordinator(Technical Team/Programs/Community",
+  description: "Senior Coordinator (Technical Team/Programs/Community)",
   link: "https://ieeecsmuj.vercel.app/",
   platform: "Website"
 }, {
