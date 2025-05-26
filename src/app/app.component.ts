@@ -1,19 +1,34 @@
-import {Component, AfterViewInit, OnDestroy} from '@angular/core';
+import {Component, AfterViewInit, OnDestroy, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {FooterComponent} from "./components/footer/footer.component";
 import {HeaderComponent} from "./components/header/header.component";
 import {ProgressBarComponent} from "./components/progress-bar/progress-bar.component";
 import Lenis from 'lenis';
+import {LoadingComponent} from "./components/loading/loading.component";
+import {LoadingService} from "./services/loading.service";
+import { timer } from 'rxjs'; // Import timer for artificial delay
+import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, ProgressBarComponent],
+    imports: [RouterOutlet, FooterComponent, HeaderComponent, ProgressBarComponent, LoadingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements AfterViewInit, OnDestroy {
+export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
     private lenis: Lenis | undefined;
+
+    constructor(private loadingService: LoadingService) {
+        // 1. Show the loader immediately when AppComponent is constructed
+        this.loadingService.show();
+    }
+
+    ngOnInit(): void {
+        // You might fetch some initial data here if needed for the page
+    }
+
+
 
     ngAfterViewInit(): void {
         this.lenis = new Lenis();
@@ -24,6 +39,12 @@ export class AppComponent implements AfterViewInit, OnDestroy {
             requestAnimationFrame(raf);
         };
         requestAnimationFrame(raf);
+
+        timer(2000).pipe( // Delay for 1 second
+            take(1) // Only take one emission from the timer
+        ).subscribe(() => {
+            this.loadingService.hide(); // Hide the loader after the delay
+        });
     }
 
     ngOnDestroy(): void {
