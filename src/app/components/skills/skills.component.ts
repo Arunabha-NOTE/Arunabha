@@ -27,7 +27,7 @@ export class SkillsComponent implements OnInit, OnDestroy {
         const options = {
             root: null, // relative to the viewport
             rootMargin: '0px',
-            threshold: 0.05 // Trigger when 10% of the element is visible
+            threshold: 0.01 // Trigger when 10% of the element is visible
         };
 
         this.observer = new IntersectionObserver((entries, observer) => {
@@ -48,7 +48,7 @@ export class SkillsComponent implements OnInit, OnDestroy {
                             console.log('Skills: Setting kbd opacity to visible');
                         }, 1500); // Wait additional time after the list animation starts
 
-                    }, 1000); // This delay might need adjustment
+                    }, 700); // This delay might need adjustment
 
                     observer.unobserve(entry.target); // Stop observing once animated
                 }

@@ -75,7 +75,7 @@ export const slideInFromLeftOnScroll = trigger('slideInFromLeftOnScroll', [
 export const listSlideInFromBottomOnScrollStagger = trigger('listSlideInFromBottomOnScrollStagger', [
     transition('* => in', [
         query(':scope > *', style({ opacity: 0, transform: 'translateY(50px)', visibility: 'hidden' }), { optional: true }),
-        query(':scope > *', stagger('250ms', [
+        query(':scope > *', stagger('450ms', [
             animate('700ms 200ms ease-out', style({ opacity: 1, transform: 'translateY(0px)', visibility: 'visible' }))
         ]), { optional: true })
     ])
