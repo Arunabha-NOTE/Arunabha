@@ -27,7 +27,7 @@ export class SkillsComponent implements OnInit, OnDestroy {
         const options = {
             root: null, // relative to the viewport
             rootMargin: '0px',
-            threshold: 0.1 // Trigger when 10% of the element is visible
+            threshold: 0.05 // Trigger when 10% of the element is visible
         };
 
         this.observer = new IntersectionObserver((entries, observer) => {
