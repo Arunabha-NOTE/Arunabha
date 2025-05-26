@@ -17,17 +17,28 @@ import {slideInFromBottomOnScroll, listSlideInFromLeftOnScrollStagger} from '../
 export class SkillsComponent implements OnInit, OnDestroy {
     animationState: 'void' | 'in' = 'void';
     skillsListState: 'void' | 'in' = 'void';
-    kbdsOpacityControlled: boolean = false;
+    kbdsOpacityControlled: boolean = false; // KEEPING THIS AS PER YOUR INSTRUCTION
 
     private observer: IntersectionObserver | undefined;
+    private mobileBreakpoint = 768; // Define your mobile breakpoint (e.g., for common tablets/phones)
 
     constructor(private el: ElementRef) {}
 
     ngOnInit(): void {
+        // NEW: Check if on mobile device
+        if (typeof window !== 'undefined' && window.innerWidth < this.mobileBreakpoint) {
+            console.log('SkillsComponent: On mobile, disabling slide-in animations. Setting states immediately.');
+            this.animationState = 'in'; // Set the main container state to 'in' immediately
+            this.skillsListState = 'in'; // Set the kbd list state to 'in' immediately
+            this.kbdsOpacityControlled = true; // Ensure opacity is also visible immediately on mobile
+            return; // Exit ngOnInit, no observer needed for mobile
+        }
+
+        // If not on mobile, proceed with IntersectionObserver for scroll animation
         const options = {
             root: null, // relative to the viewport
             rootMargin: '0px',
-            threshold: 0.01 // Trigger when 10% of the element is visible
+            threshold: 0.01 // Trigger when 1% of the element is visible
         };
 
         this.observer = new IntersectionObserver((entries, observer) => {
@@ -35,7 +46,7 @@ export class SkillsComponent implements OnInit, OnDestroy {
                 if (entry.isIntersecting) {
                     console.log('SkillsComponent: Element intersected! Triggering animations.');
 
-                        this.animationState = 'in'; // Trigger main container animation
+                    this.animationState = 'in'; // Trigger main container animation
 
                     // Delay the inner list animation
                     setTimeout(() => {
