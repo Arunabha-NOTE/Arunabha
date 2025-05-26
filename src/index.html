@@ -17,5 +17,23 @@
 </head>
 <body>
 <app-root></app-root>
+<!-- Add this to your index.html body -->
+<style>
+  /* Hide app-skills until Angular is ready */
+  app-skills {
+    display: none;
+  }
+  .angular-initialized app-skills {
+    display: block;
+  }
+</style>
+<script>
+  // Mark the body as initialized after a small delay
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+      document.body.classList.add('angular-initialized');
+    }, 100);
+  });
+</script>
 </body>
 </html>

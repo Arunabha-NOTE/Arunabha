@@ -1,188 +1,192 @@
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text mx-auto text-4xl font-bold p-4 max-w-7xl ">
-    Tools & Technologies</h2>
-<P class="mx-auto p-4 max-w-7xl">Below are the tools and Technologies that i have familiarity with and have made use of in my projects and research.</P>
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Languages</h2>
-<div class="max-w-5xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-java-plain px-1"></i>
-        Java</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-typescript-plain px-1"></i>
-        TypeScript</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-javascript-plain px-1"></i>
-        JavaScript</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-bash-plain px-1"></i>
-        Bash</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-python-plain px-1"></i>
-        Python</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-c-plain px-1"></i>
-        C</kbd>
-</div>
+<div [@slideInFromBottomOnScroll]="animationState">
+    <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text mx-auto text-4xl font-bold p-4 max-w-7xl ">
+        Tools & Technologies</h2>
+    <P class="mx-auto p-4 max-w-7xl">Below are the tools and Technologies that i have familiarity with and have made use of in my projects and research.</P>
 
+    <div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Languages</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-5xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-java-plain px-1"></i>
+                Java</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-typescript-plain px-1"></i>
+                TypeScript</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-javascript-plain px-1"></i>
+                JavaScript</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-bash-plain px-1"></i>
+                Bash</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-python-plain px-1"></i>
+                Python</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-c-plain px-1"></i>
+                C</kbd>
+        </div>
 
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Frontend</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-angular-plain px-1"></i>
+                Angular</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-react-original px-1"></i>
+                React</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-nextjs-plain px-1"></i>
+                NextJs</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-tailwindcss-original px-1"></i>
+                TailwindCSS</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Frontend</h2>
-<div class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-angular-plain px-1"></i>
-        Angular</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-react-original px-1"></i>
-        React</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-nextjs-plain px-1"></i>
-        NextJs</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-tailwindcss-original px-1"></i>
-        TailwindCSS</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Backend</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-spring-original px-1"></i>
+                Spring</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-nodejs-plain px-1"></i>
+                NodeJS</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-express-original px-1"></i>
+                Express</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-fastapi-plain px-1"></i>
+                FastAPI</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-supabase-plain px-1"></i>
+                Supabase</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-prisma-original px-1"></i>
+                Prisma</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Backend</h2>
-<div class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-spring-original px-1"></i>
-        Spring</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-nodejs-plain px-1"></i>
-        NodeJS</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-express-original px-1"></i>
-        Express</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-fastapi-plain px-1"></i>
-        FastAPI</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-supabase-plain px-1"></i>
-        Supabase</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-prisma-original px-1"></i>
-        Prisma</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">DevOps & Automation</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-docker-plain px-1"></i>
+                Docker</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-kubernetes-plain px-1"></i>
+                Kubernetes</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-terraform-plain px-1"></i>
+                TerraForm</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-circleci-plain px-1"></i>
+                CircleCI</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-gitlab-plain px-1"></i>
+                GitLab</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-githubactions-plain px-1"></i>
+                GitHub Actions</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">DevOps & Automation</h2>
-<div class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-docker-plain px-1"></i>
-        Docker</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-kubernetes-plain px-1"></i>
-        Kubernetes</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-terraform-plain px-1"></i>
-        TerraForm</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-circleci-plain px-1"></i>
-        CircleCI</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-gitlab-plain px-1"></i>
-        GitLab</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-githubactions-plain px-1"></i>
-        GitHub Actions</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Cloud Platform & Deployment</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-amazonwebservices-plain px-1"></i>
+                AWS</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-vercel-original px-1"></i>
+                Vercel</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Cloud Platform & Deployment</h2>
-<div class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-amazonwebservices-plain px-1"></i>
-        AWS</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-vercel-original px-1"></i>
-        Vercel</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">DBMS</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-mongodb-plain px-1"></i>
+                MongoDB</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-mongoose-original px-1"></i>
+                Mongoose</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-mysql-original px-1"></i>
+                MySQL</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-sqlite-plain px-1"></i>
+                SQLite</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-postgresql-plain px-1"></i>
+                PostgreSQL</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">DBMS</h2>
-<div class="max-w-7xl px-4 gap-4 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-mongodb-plain px-1"></i>
-        MongoDB</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-mongoose-original px-1"></i>
-        Mongoose</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-mysql-original px-1"></i>
-        MySQL</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-sqlite-plain px-1"></i>
-        SQLite</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-postgresql-plain px-1"></i>
-        PostgreSQL</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Version Control</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-git-plain px-1"></i>
+                Git</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-github-original px-1"></i>
+                GitHub</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-gitlab-plain px-1"></i>
+                GitLab</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl  p-4 max-w-7xl">Version Control</h2>
-<div class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-git-plain px-1"></i>
-        Git</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-github-original px-1"></i>
-        GitHub</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-gitlab-plain px-1"></i>
-        GitLab</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Operating Systems</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-fedora-plain px-1"></i>
+                Fedora</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-linux-plain px-1"></i>
+                Linux</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-ubuntu-plain px-1"></i>
+                Ubuntu</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Operating Systems</h2>
-<div class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-fedora-plain px-1"></i>
-        Fedora</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-linux-plain px-1"></i>
-        Linux</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-ubuntu-plain px-1"></i>
-        Ubuntu</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Machine Learning</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-pytorch-original px-1"></i>
+                PyTorch</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-tensorflow-original px-1"></i>
+                TensorFlow</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-matplotlib-plain px-1"></i>
+                Matplotlib</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-scikitlearn-plain px-1"></i>
+                Scikit-learn</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out"><i
+                class="devicon-pandas-plain px-1"></i>
+                Pandas</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Machine Learning</h2>
-<div class="max-w-7xl px-4 gap-4  flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-pytorch-original px-1"></i>
-        PyTorch</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-tensorflow-original px-1"></i>
-        TensorFlow</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-matplotlib-plain px-1"></i>
-        Matplotlib</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-scikitlearn-plain px-1"></i>
-        Scikit-learn</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg"><i
-        class="devicon-pandas-plain px-1"></i>
-        Pandas</kbd>
-</div>
+        <h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Others</h2>
+        <div [@listSlideInFromLeftOnScrollStagger]="skillsListState" class="max-w-7xl px-4 gap-4 mb-6 flex flex-wrap mx-auto">
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-gradle-original px-1"></i>
+                Gradle</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-maven-plain px-1"></i>
+                Maven</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-npm-original-wordmark px-1"></i>
+                NPM</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-vitejs-plain px-1"></i>
+                Vite</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-postman-plain px-1"></i>
+                Postman</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-vscode-plain px-1"></i>
+                VSCode</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-jetbrains-plain px-1"></i>
+                JetBrains</kbd>
+            <kbd [ngStyle]="{'opacity': kbdsOpacityControlled ? '1' : '0'}" class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg transition-opacity duration-[1000ms] ease-out">
+                <i class="devicon-powershell-plain px-1"></i>
+                Powershell</kbd>
+        </div>
 
-<h2 class="bg-gradient-to-r from-[#ff00cc] to-[#818cf8] text-transparent bg-clip-text w-fit text-2xl p-4 max-w-7xl">Others</h2>
-<div class="max-w-7xl px-4 gap-4 mb-6 flex flex-wrap mx-auto">
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-gradle-original px-1"></i>
-        Gradle</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-maven-plain px-1"></i>
-        Maven</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-npm-original-wordmark px-1"></i>
-        NPM</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-vitejs-plain px-1"></i>
-        Vite</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-postman-plain px-1"></i>
-        Postman</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-vscode-plain px-1"></i>
-        VSCode</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-jetbrains-plain px-1"></i>
-        JetBrains</kbd>
-    <kbd class="kbd kbd-md hover:border-secondary hover:shadow-lg hover:shadow-[#ff00cc] text-lg">
-        <i class="devicon-powershell-plain px-1"></i>
-        Powershell</kbd>
+    </div>
 </div>

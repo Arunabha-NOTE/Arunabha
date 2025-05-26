@@ -14,3 +14,22 @@ body, html {
     color: white;
     background: #818cf8;
 }
+
+/* src/styles.css - add this */
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+/* Hide skills component until Angular is ready */
+app-skills {
+  visibility: hidden !important;
+}
+
+/* This class will be added by the component when it's ready to animate */
+app-skills.animation-ready {
+  visibility: visible !important;
+}
