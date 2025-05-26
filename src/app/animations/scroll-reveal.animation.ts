@@ -15,7 +15,7 @@ export const slideInFromBottomOnScroll = trigger('slideInFromBottomOnScroll', [
     })),
     transition('void => in', [
         style({ visibility: 'visible' }), // Make visible just before animating to prevent FOUC
-        animate('2000ms 2000ms ease-out')
+        animate('900ms 1000ms ease-out')
     ])
 ]);
 
@@ -67,7 +67,7 @@ export const slideInFromLeftOnScroll = trigger('slideInFromLeftOnScroll', [
     })),
     transition('void => in', [
         style({ visibility: 'visible' }),
-        animate('700ms 2000ms ease-out')
+        animate('700ms 200ms ease-out')
     ])
 ]);
 
@@ -75,8 +75,8 @@ export const slideInFromLeftOnScroll = trigger('slideInFromLeftOnScroll', [
 export const listSlideInFromBottomOnScrollStagger = trigger('listSlideInFromBottomOnScrollStagger', [
     transition('* => in', [
         query(':scope > *', style({ opacity: 0, transform: 'translateY(50px)', visibility: 'hidden' }), { optional: true }),
-        query(':scope > *', stagger('150ms', [
-            animate('700ms 2000ms ease-out', style({ opacity: 1, transform: 'translateY(0px)', visibility: 'visible' }))
+        query(':scope > *', stagger('250ms', [
+            animate('700ms 200ms ease-out', style({ opacity: 1, transform: 'translateY(0px)', visibility: 'visible' }))
         ]), { optional: true })
     ])
 ]);
