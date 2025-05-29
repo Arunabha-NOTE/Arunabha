@@ -57,9 +57,9 @@ export class SkillsComponent implements OnInit, OnDestroy {
                         setTimeout(() => {
                             this.kbdsOpacityControlled = true;
                             console.log('Skills: Setting kbd opacity to visible');
-                        }, 1500); // Wait additional time after the list animation starts
+                        }, 1300); // Wait additional time after the list animation starts
 
-                    }, 700); // This delay might need adjustment
+                    }, 300); // This delay might need adjustment
 
                     observer.unobserve(entry.target); // Stop observing once animated
                 }

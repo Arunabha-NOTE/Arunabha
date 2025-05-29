@@ -15,7 +15,7 @@ export const slideInFromBottomOnScroll = trigger('slideInFromBottomOnScroll', [
     })),
     transition('void => in', [
         style({ visibility: 'visible' }), // Make visible just before animating to prevent FOUC
-        animate('900ms 1000ms ease-out')
+        animate('1000ms 1000ms ease-out')
     ])
 ]);
 
@@ -43,7 +43,7 @@ export const listSlideInFromLeftOnScrollStagger = trigger('listSlideInFromLeftOn
                 transform: 'translateX(-50px)',
                 visibility: 'hidden'
             }),
-            animate('1000ms ease-out', style({ // Final state for each kbd element after its individual animation
+            animate('1200ms ease-out', style({ // Final state for each kbd element after its individual animation
                 opacity: 1,
                 transform: 'translateX(0px)',
                 visibility: 'visible'
@@ -67,7 +67,7 @@ export const slideInFromLeftOnScroll = trigger('slideInFromLeftOnScroll', [
     })),
     transition('void => in', [
         style({ visibility: 'visible' }),
-        animate('700ms 200ms ease-out')
+        animate('1000ms 200ms ease-out')
     ])
 ]);
 
