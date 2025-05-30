@@ -8,11 +8,12 @@ import {LoadingComponent} from "./components/loading/loading.component";
 import {LoadingService} from "./services/loading.service";
 import { timer } from 'rxjs'; // Import timer for artificial delay
 import { take } from 'rxjs/operators';
+import {GoToTopComponent} from "./components/go-to-top/go-to-top.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-    imports: [RouterOutlet, FooterComponent, HeaderComponent, ProgressBarComponent, LoadingComponent],
+    imports: [RouterOutlet, FooterComponent, HeaderComponent, ProgressBarComponent, LoadingComponent, GoToTopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
