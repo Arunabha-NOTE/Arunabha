@@ -3,6 +3,15 @@ import {ExperienceModel} from "../models/experienceModel";
 const experienceData: ExperienceModel[] = [
     {
         id: 1,
+        name: "Heizen SDE Intern",
+        duration: "June 2025 - Present",
+        role: "SDE",
+        description: "Working on multiple live projects at Heizen with a plethora of different technologies.",
+        link: "https://www.heizen.work/",
+        platform: "Link"
+    },
+    {
+        id: 2,
         name: "Ericsson Intern",
         duration: "May 2024 - July 2024",
         role: "Integration Engineer",
@@ -11,7 +20,7 @@ const experienceData: ExperienceModel[] = [
         platform: "Link"
     },
     {
-        id: 2,
+        id: 3,
         name: "Celebal Technologies Intern",
         duration: "May 2025 - July 2025",
         role: "DevOps Intern",
@@ -19,7 +28,7 @@ const experienceData: ExperienceModel[] = [
         link: "https://celebaltech.com/",
         platform: "Link"
     }, {
-        id: 3,
+        id: 4,
         name: "MUJ Intern",
         duration: "June 2025 - July 2025",
         role: "Software Developer Engineer",
