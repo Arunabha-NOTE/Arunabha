@@ -6,7 +6,8 @@ const experienceData: ExperienceModel[] = [
         name: "Heizen SDE Intern",
         duration: "June 2025 - Present",
         role: "SDE",
-        description: "Working on multiple live projects at Heizen with a plethora of different technologies.",
+        description: "Contributing across multiple cross-functional projects spanning cloud infrastructure, full-stack web development, mobile app\n" +
+            "development, generative AI, etc.",
         link: "https://www.heizen.work/",
         platform: "Link"
     },
