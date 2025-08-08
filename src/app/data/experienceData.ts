@@ -3,7 +3,7 @@ import {ExperienceModel} from "../models/experienceModel";
 const experienceData: ExperienceModel[] = [
     {
         id: 1,
-        name: "Heizen SDE Intern",
+        name: "Heizen SDE",
         duration: "June 2025 - Present",
         role: "SDE",
         description: "Contributing across multiple cross-functional projects spanning cloud infrastructure, full-stack web development, mobile app\n" +
