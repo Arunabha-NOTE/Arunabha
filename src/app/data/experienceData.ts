@@ -32,7 +32,7 @@ const experienceData: ExperienceModel[] = [
         name: "MUJ IQAC",
         duration: "June 2025 - July 2025",
         role: "Software Developer Intern",
-        description: "Developing a system for kpi management for MUJ. The system uses NextJs, Typescript, Tailwind CSS, Turborepo, prisma, and PostgreSQL.",
+        description: "Developed a ERP system for IQAC cell at MUJ. The system uses modern frameworks/technologies such as NextJs, Typescript, Tailwind CSS, Turborepo, prisma, and PostgreSQL.",
         link: "",
         platform: "NA"
     }
