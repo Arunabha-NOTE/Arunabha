@@ -75,14 +75,14 @@ const projectData: ProjectModel[] = [
     }
     , {
         id: 11,
-        name: "Deepfake Detector",
+        name: "Deepfake Detection Using Vision Transformer and MTCNN-Based Facial Frame Extraction",
         stack: "React, TypeScript, Tailwind CSS, FastAPI, Tensorflow, Python",
-        description: "A website to submit a video to check if it is manipulated or not. It is making use of React and FastApi. The model used for classification is a Vision Transformer",
-        link: "https://github.com/Arunabha-NOTE/deepfake-frontend",
-        platform: "GitHub"
+        description: "A website to submit a video to check if it is manipulated or not. It is making use of React and FastApi. The model used for classification is a Vision Transformer. Also a Research paper to be published in IEEE.",
+        link: "",
+        platform: "Paper"
     }, {
         id: 12,
-        name: "Diabetic Retinopathy Classification (Accepted yet to be published)",
+        name: "Diabetic Retinopathy Classification (Presented to be published)",
         stack: "Tensorflow, Matplotlib, Pandas, Python",
         description: "A model to classify Diabetic Retinopathy using a Vision Transformer.",
         link: "",
