@@ -6,8 +6,7 @@ const experienceData: ExperienceModel[] = [
         name: "Heizen SDE",
         duration: "June 2025 - Present",
         role: "SDE",
-        description: "Contributing across multiple cross-functional projects spanning cloud infrastructure, full-stack web development, mobile app\n" +
-            "development, generative AI, etc.",
+        description: "Building all kinds of production ready applications and MVPs for various clients using modern technologies like Nextjs, NestJs, Spring boot, etc.",
         link: "https://www.heizen.work/",
         platform: "Link"
     },
@@ -16,7 +15,7 @@ const experienceData: ExperienceModel[] = [
         name: "Ericsson Intern",
         duration: "May 2024 - July 2024",
         role: "Integration Engineer",
-        description: "During my internship at Ericsson, I contributed to an open-source project called Synthetic Data Generator UI/API. In the second half, I recreated the project using company tools with a tech stack including Angular, TypeScript, Less CSS, Python, FastAPI, SQLiteDB3, Git, and Gitlab.",
+        description: "Create a fullstack application to upload templates, generate synthetic data and modify/visualize the data. It was built using Angular, FastAPI, SQLite and OpenAI.",
         link: "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/india",
         platform: "Link"
     },
@@ -25,14 +24,14 @@ const experienceData: ExperienceModel[] = [
         name: "Celebal Technologies Intern",
         duration: "May 2025 - July 2025",
         role: "DevOps Intern",
-        description: "Currently Interning for Celebal Technologies as a DevOps intern.",
+        description: "Learn and apply DevOps practices and tools. Main focus was put on Azure cloud and Azure DevOps services. Built a Capstone project as part of the internship.",
         link: "https://celebaltech.com/",
         platform: "Link"
     }, {
         id: 4,
-        name: "MUJ Intern",
+        name: "MUJ IQAC",
         duration: "June 2025 - July 2025",
-        role: "Software Developer Engineer",
+        role: "Software Developer Intern",
         description: "Developing a system for kpi management for MUJ. The system uses NextJs, Typescript, Tailwind CSS, Turborepo, prisma, and PostgreSQL.",
         link: "",
         platform: "NA"
